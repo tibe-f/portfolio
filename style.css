@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    background: transparent;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: #1A120B;
+    overflow: hidden;
+    overflow-y: scroll;
+    color:#E5E5CB;
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.navbar a{
+    text-decoration: none;
+    color: #D5CEA3;
+}
+.logo{
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    cursor: pointer;
+}
+small{
+    color: #D5CEA3;
+    
+}
+.menuitem{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #E5E5CB;
+}
+.menuitem:hover{
+    border-bottom: 0.1rem solid #D5CEA3;
+    padding-bottom: 0.4rem;
+    color: #D5CEA3;
+}
+.contactBtn{
+    background-color: #fff;
+    padding: 0.7rem 2rem;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #1A120B;
+}
+.contactBtn:active{
+    transform: scale(0.97);
+}

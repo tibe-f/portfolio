@@ -1,0 +1,50 @@
+{
+  "hash": "b5ec4c71",
+  "browserHash": "8a9cd2e0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "b51ba1a3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ad674712",
+      "needsInterop": true
+    },
+    "react-scroll": {
+      "src": "../../node_modules/react-scroll/modules/index.js",
+      "file": "react-scroll.js",
+      "fileHash": "9a80f7a6",
+      "needsInterop": true
+    },
+    "@fortawesome/react-fontawesome": {
+      "src": "../../node_modules/@fortawesome/react-fontawesome/index.es.js",
+      "file": "@fortawesome_react-fontawesome.js",
+      "fileHash": "ecc6ba34",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "ddc0a6b9",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DZXRV6RW": {
+      "file": "chunk-DZXRV6RW.js"
+    },
+    "chunk-YU7MVGIP": {
+      "file": "chunk-YU7MVGIP.js"
+    },
+    "chunk-ZAUFE7H7": {
+      "file": "chunk-ZAUFE7H7.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
