@@ -3,17 +3,22 @@
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    overflow: hidden;
+    
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.bgtb{
-    position: absolute;
-    top: 44%;
-    transform: translateY(-50%);
-    right: 2rem;
-
-    border-radius: 3rem;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+.bgtbcont{
+    width: 25rem;
+    height: 40rem;
+    background-color: transparent;
+    border: 1px solid #D5CEA3;
+   display: flex;
+   justify-content: center;
+   border-radius: 4rem;
+   z-index: -2;
+    
 }
 
 .introContent{
@@ -22,10 +27,11 @@
     flex-direction: column;
     align-items: start;
     height: 100vh;
-    width: 100vw;
+
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
+    word-spacing: 3px;
 }
 .hello{
     font-size: 1.75rem;
@@ -44,14 +50,28 @@
     margin: 1rem 0;
     padding: 0.75rem 2rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
     font-size: large;
     cursor: pointer;
 }
- 
+.introbtns{
+    width: 70%;
+    display: flex;
+    justify-content: space-around
+}
+.btn:active{
+    transform: scale(0.98);
+}
 @media screen and (max-width: 840px){
-    .bgtb{
-        right: -10vw;
+    #intro{
+        flex-direction: column;
+    }
+    .bgtbcont{
+        height: 20rem;
+        width: 19em;
+        border-radius: 50%;
+        overflow: visible;
+
     }
     .introContent{
         font-size: 10vw;
@@ -61,8 +81,5 @@
     }
 }
 @media screen and (max-width: 480px){
-    .bgtb{
-        right: 50%;
-    }
-    
+
 }
