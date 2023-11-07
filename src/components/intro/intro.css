@@ -14,24 +14,25 @@
     height: 40rem;
     background-color: transparent;
     border: 1px solid #D5CEA3;
-   display: flex;
-   justify-content: center;
-   border-radius: 4rem;
-   z-index: -2;
-    
+    display: flex;
+    justify-content: center;
+    border-radius: 4rem;
+    margin: 0 2.5rem;
 }
-
+.bgtb{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .introContent{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: start;
     height: 100vh;
-
     padding: 2rem;
-    font-size: 3rem;
-    font-weight: 700;
-    word-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: 650;
+    letter-spacing: 3px;
 }
 .hello{
     font-size: 1.75rem;
@@ -39,11 +40,13 @@
 }
 .intro-name{
     color: #D5CEA3;
+    font-size: 2rem;
 }
 .intropara{
-    font-size: medium;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 1px;
+    margin: 1rem 0;
 }
 .btn{
     background-color: #fff;
@@ -55,9 +58,9 @@
     cursor: pointer;
 }
 .introbtns{
-    width: 70%;
+    width: 65%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
 }
 .btn:active{
     transform: scale(0.98);
