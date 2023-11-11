@@ -70,11 +70,16 @@
         flex-direction: column;
     }
     .bgtbcont{
-        height: 20rem;
-        width: 19em;
+        height: 15rem;
+        width: 16rem;
         border-radius: 50%;
         overflow: visible;
 
+    }
+    .bgtbcont img{
+        border-radius: 50%;
+        width: 16rem;
+        height: 15rem;
     }
     .introContent{
         font-size: 10vw;

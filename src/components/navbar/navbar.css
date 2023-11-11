@@ -37,6 +37,10 @@ small{
     padding-bottom: 0.4rem;
     color: #D5CEA3;
 }
+.menuitem.active{
+    border-bottom: 1px solid #D5CEA3;
+    padding-bottom: 3px;
+}
 .contactBtn{
     background-color: #fff;
     padding: 0.7rem 2rem;

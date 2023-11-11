@@ -9,13 +9,20 @@ const Navbar = ()=>{
         <nav className="navbar">
             <a href="#"><span className="logo"> Tibe.F</span></a>
             <div className="desktopMenu">
-                <Link className="menuitem">Home</Link>
-                <Link className="menuitem">About</Link>
-                <Link className="menuitem">Portfolio</Link>
-                <Link className="menuitem">Clients</Link>
-
+                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="menuitem">Home</Link>
+                <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} className="menuitem">About</Link>
+                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} className="menuitem">Portfolio</Link>
             </div>
-            <button className="contactBtn"><FontAwesomeIcon icon={faAddressBook} /> Contact Me</button>
+            <button onClick={()=>{
+                document.getElementById('contact').scrollIntoView({behavior:'smooth'})
+            }} className="contactBtn"><FontAwesomeIcon icon={faAddressBook} /> Contact Me</button>
+
+<a href="#"><span className="logo"> Tibe.F</span></a>
+            <div className="desktopMenu">
+                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="menuitem">Home</Link>
+                <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} className="menuitem">About</Link>
+                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} className="menuitem">Portfolio</Link>
+            </div>
         </nav>
     )
 }
