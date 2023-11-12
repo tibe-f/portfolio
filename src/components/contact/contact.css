@@ -47,6 +47,10 @@
     border-radius: 1rem;
     font-size: medium;
     margin: 2rem auto;
+    cursor: pointer;
+}
+.contactbtn:active{
+    transform: scale(0.97);
 }
 a{
     text-decoration: none;
