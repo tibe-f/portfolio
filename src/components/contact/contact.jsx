@@ -11,9 +11,9 @@ const Contact = () => {
         <h1 className="contactMeTitle">Contact Me</h1>
          <span className="contactDesc">Please fill out the form to discus any word opportunities</span>
          <form className="contactForm">
-          <input type="text" className='name' placeholder='Your Name'/>
-          <input type="email" className='email' placeholder='Your Email' />
-          <textarea name="message" className='msg' placeholder='Your Message' rows="4"></textarea>
+          <input type="text" className='contactInput name' placeholder='Your Name'/>
+          <input type="email" className='contactInput email' placeholder='Your Email' />
+          <textarea name="message" className='contactInput msg' placeholder='Your Message' rows="4"></textarea>
           <button type='submit' className='contactbtn' value='send' >Submit</button>
          </form>
          <a href=""><FontAwesomeIcon className='Icon' icon={faGithub} /></a>

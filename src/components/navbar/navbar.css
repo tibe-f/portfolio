@@ -53,3 +53,35 @@ small{
 .contactBtn:active{
     transform: scale(0.97);
 }
+.navMenu{
+    position: absolute;
+    height: fit-content;
+    top: 4rem;
+    right: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.listItem{
+    padding: 0.5rem 3rem;
+    background-color: rgb(30, 30, 30);
+    margin: 0.5rem;
+}
+.mobMenu{
+    width: 3.5rem;
+    height: 2rem;
+    color: #D5CEA3;
+    border: none;
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .mobMenu{
+        display: block;
+    }
+    .contactBtn,.desktopMenu{
+        display: none;
+    }
+
+}

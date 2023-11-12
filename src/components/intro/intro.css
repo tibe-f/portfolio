@@ -71,23 +71,40 @@
     }
     .bgtbcont{
         height: 15rem;
-        width: 16rem;
+        width: 17rem;
         border-radius: 50%;
         overflow: visible;
 
     }
     .bgtbcont img{
         border-radius: 50%;
-        width: 16rem;
+        width: 17rem;
         height: 15rem;
     }
     .introContent{
         font-size: 10vw;
+        align-items: center;
+        text-align: center;
     }
     .hello{
         font-size: 3.5vw;
     }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
+    .introContent{
+        align-items: center;
+        font-size: 1.5rem;
 
+    }
+}
+@media screen and (max-width: 520px){
+    .introbtns .btn{
+        margin: 7px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+    .introbtns .btn{
+        padding: 0.4rem 0.65rem;
+    }
 }
