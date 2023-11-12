@@ -65,11 +65,15 @@
   .moreInfo button{
     border: 0;
     color: #fff;
+    display: none;
+  }
+  .work:hover .moreInfo button{
+    display: block;
   }
   .moreInfo{
     position: absolute;
-    bottom: 0.5rem;
     left: 50%;
+    bottom: 0;
     transform: translateX(-50%);
     transition: transform 3s ease-in;
     width: 30%;
