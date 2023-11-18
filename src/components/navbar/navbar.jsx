@@ -17,6 +17,7 @@ const Navbar = ()=>{
             <button onClick={()=>{
                 document.getElementById('contact').scrollIntoView({behavior:'smooth'})
             }} className="contactBtn"><FontAwesomeIcon icon={faAddressBook} /> Contact Me</button>
+           
             <button className="mobMenu" onClick={()=>{setShowMenu(!showMenu)}}><FontAwesomeIcon className="mobMenu" icon={faBars} /></button>
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>{setShowMenu(false)}} >Home</Link>
