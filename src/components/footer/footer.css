@@ -1,5 +1,7 @@
 .footer{
     width: 100vw;
+    padding: auto 0.3rem;
+    font-size: 0.9rem;
     height: 4rem;
     text-align: center;
     padding: 2rem auto;

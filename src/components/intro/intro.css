@@ -58,7 +58,6 @@
     cursor: pointer;
 }
 .introbtns{
-    width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -70,16 +69,16 @@
         flex-direction: column;
     }
     .bgtbcont{
-        height: 15rem;
-        width: 17rem;
-        border-radius: 50%;
+        height: calc(100vh-25rem);
+        width: 20rem;
+        border-radius: 5%;
         overflow: visible;
+        margin-bottom: 2rem;
 
     }
     .bgtbcont img{
-        border-radius: 50%;
-        width: 17rem;
-        height: 15rem;
+        width: 20rem;
+        height: 19rem;
     }
     .introContent{
         font-size: 10vw;
@@ -101,6 +100,10 @@
     .introbtns .btn{
         margin: 7px;
         font-size: 14px;
+    }
+    .introbtns{
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 400px){

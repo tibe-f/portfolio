@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="skillBar">
           <img src={uxuipng} alt="" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>UI | UX Design</h2>
+            <h2>Web Development</h2>
             <p>Produce beautiful UI designs. </p>
           </div>
         </div>

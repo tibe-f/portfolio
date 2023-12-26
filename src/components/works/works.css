@@ -29,7 +29,16 @@
     max-width: 65rem;
     flex-wrap: wrap;
   }
-  
+  .works.graphics{
+    display: flex;
+    flex-direction: column;
+  }
+  .workList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+  }
   .work{
     position: relative;
     margin: 1rem;
@@ -67,6 +76,50 @@
     color: #fff;
     display: none;
   }
+ .imgZoom{
+    transform: translateY(-50%);
+    position: fixed;
+    top: 20%;
+    width: 30vw;
+    height: 70vh;
+    display: none;
+  }
+  .imgZoom.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  .imgZoom::after {
+    content: '';
+    width: 30vw;
+    height: 70vh;
+    background: transparent;
+    border: 2px dashed;
+    z-index: -2;
+    position: absolute;
+    padding: 2rem;
+    opacity: 0.5;
+    border-radius: 10px;
+
+  }
+  .imgZoom .close{
+    position: absolute;
+    top: -30px;
+    right: -15px;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+  }
+  .imgZoom img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+  }
+
   .work:hover .moreInfo button{
     display: block;
   }
@@ -107,7 +160,19 @@
 }
 @media screen and (max-width:480px) {
     .workImg{
-        width:12rem;
+        width:13rem;
         height: 12rem;
+    }
+    .workList{
+      display: flex;
+      justify-content: center;
+    }
+    .imgZoom{
+      width: 70vw;
+      height: 60vh;
+    }
+    .imgZoom::after {
+      width: 70vw;
+      height: 60vh;
     }
 }
